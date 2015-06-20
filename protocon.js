@@ -6,7 +6,7 @@ var word = prompt("Enter Word: ");
 var phrase = word.toLowerCase();
 
 /* calculate size of each square */
-var gridSize = 400/phrase.length;
+var gridSize = Math.round(400/phrase.length);
 
 /* setup the grid system */
 for (var x = 0; x < phrase.length; x++) {
